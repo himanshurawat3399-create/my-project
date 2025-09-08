@@ -1,4 +1,7 @@
-html, body, #root {height: 100%}
+html, body, #root {
+    height: 100%
+}
+
 body {
     margin: 0;
     font-family: system-ui, sans-serif;
@@ -6,56 +9,56 @@ body {
     color: #0f172a;
 }
 
-.app{
+.app {
     min-height: 100dvh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.card{
+.card {
     width: 320px;
     background: #ffffff;
     border-radius: 24px;
     padding: 16px;
     border: 1px solid #e5e7eb;
-    box-shadow: 0 10px 25px rgba(0, 0, 0,.08);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
 }
 
-.cover{
+.cover {
     width: 100%;
     aspect-ratio: 4/5;
     object-fit: cover;
     border-radius: 26px;
 }
 
-.nameRow{
+.nameRow {
     display: flex;
     align-items: center;
     gap: 8px;
     margin-top: 12px;
 }
 
-.name{
+.name {
     font-size: 20px;
     font-weight: 700;
     line-height: 1.1;
 }
 
-.verified{
+.verified {
     width: 28px;
     height: 28px;
     color: #22c55e;
 }
 
-.desc{
+.desc {
     margin-top: 6px;
     font-size: 14px;
     line-height: 1.45;
     color: #6b7280;
 }
 
-.footer{
+.footer {
     margin-top: 14px;
     display: flex;
     align-items: center;
@@ -68,14 +71,14 @@ body {
 }
 
 .stats {
-    display:flex;
+    display: flex;
     align-items: center;
     gap: 16px;
     color: #6b7280;
     font-size: 14px;
 }
 
-.stat{
+.stat {
     display: inline-flex;
     align-items: center;
     gap: 6px;
@@ -86,7 +89,7 @@ body {
     height: 16px;
 }
 
-.btn{
+.btn {
     appearance: none;
     border: none;
     background: #111827;
@@ -97,5 +100,11 @@ body {
     cursor: pointer;
     transition: transform .05s ease, opacity .15s ease;
 }
-.btn:hover{ opacity: .95; }
-.btn:active { transform: translateY(1px); }
+
+.btn:hover {
+    opacity: .95;
+}
+
+.btn:active {
+    transform: translateY(1px);
+}
