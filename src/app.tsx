@@ -1,12 +1,13 @@
 import "./app.css";
-import { ColorModeButton } from "@/components/ui/color-mode.tsx";
+import Navbar  from "./components/Navbar";
+import Home from "./pages/Home";
 
 export function App() {
 
   return (
     <div>
-      <h1>Header</h1>
-      <ColorModeButton />
+      <Navbar />
+        <Home/>
     </div>
   );
 }
