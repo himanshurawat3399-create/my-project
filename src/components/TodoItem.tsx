@@ -9,10 +9,10 @@ interface TodoItemProps {
 const TodoItem: React.FC<TodoItemProps> = ({todo}) => {
     return(
         <Box p={4} mb={2} borderWidth="1px" borderRadius="lg" className="flex justify-between items-center">
-            <Checkbox.Root isChecked={todo.completed}>
+            <Checkbox.Root checked={todo.completed}>
                 <Checkbox.HiddenInput />
                 <Checkbox.Control />
-                <Checkbox.Label>Accept terms and conditions</Checkbox.Label>
+                <Checkbox.Label>{todo.todo}</Checkbox.Label>
             </Checkbox.Root>
                 <Text fontSize="sm" color="gray.500">
                     User: {todo.userId}

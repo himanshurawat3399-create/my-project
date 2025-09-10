@@ -8,3 +8,6 @@ render((
     <App />
   </Provider>
 ), document.getElementById("app")!);
+
+//useTransition - simulates loading states
+//pagination

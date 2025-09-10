@@ -68,7 +68,7 @@ const Home: React.FC = () => {
                 >
                 Previous
             </Button>
-            <Button onClick = {() => setPage((prev) => prev + 1)}
+            <Button onClick={() => setPage((prev) => prev + 1)}
             disabled={todos.length < limit}
             >
                 Next
